@@ -3123,7 +3123,7 @@ var MainService = /** @class */ (function () {
     };
     MainService.prototype.getItemsData = function () {
         var data;
-        return this.http.get("http://" + this.IPAddress + ":3000/api/GetItemsData")
+        return this.http.get("https://" + this.IPAddress + ":3000/api/GetItemsData")
             .map(function (res) { return res.json(); });
     };
     MainService.prototype.setTableNo = function (tableNo) {
@@ -5971,7 +5971,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
             json = JSON.stringify({ itemno: parseInt(this_1.bill[i].itemno) + 1, qty: this_1.bill[i].qty, billno: this_1.billno, date: this_1.latest_date, time: this_1.latest_time, cname: this_1.cname, note: this_1.cNote, foodstatus: 'preparing', tableno: 500, 'mobileno': this_1.cMobile });
             header = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]();
             header.append("Content-Type", "application/json");
-            this_1.http.post("http://" + this_1.MainSer.IPAddress + ":3000/api/add", json, { headers: header })
+            this_1.http.post("https://" + this_1.MainSer.IPAddress + ":3000/api/add", json, { headers: header })
                 .map(function (res) { return res.json(); })
                 .subscribe(function (res) {
                 // console.log("success"+res);
@@ -6055,7 +6055,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
     TakeAwayHomeComponent.prototype.getItemsData = function () {
         var _this = this;
         if (localStorage.getItem('menu') == null) {
-            this.http.get("http://" + this.MainSer.IPAddress + "/api/GetItemsData")
+            this.http.get("https://" + this.MainSer.IPAddress + "/api/GetItemsData")
                 .map(function (res) { return res.json(); })
                 .subscribe(function (resp) { return _this.items = resp; });
         }
@@ -6068,7 +6068,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
         this.todayDate = new Date();
         this.latest_date = this.datepipe.transform(this.todayDate, 'MM-dd-yyyy');
         this.latest_time = this.datepipe.transform(this.todayDate, 'shortTime');
-        this.http.get("http://" + this.MainSer.IPAddress + ":3000/api/billno?date=" + this.latest_date)
+        this.http.get("https://" + this.MainSer.IPAddress + ":3000/api/billno?date=" + this.latest_date)
             .map(function (res) { return res.json(); })
             .subscribe(function (resp) {
             _this.billno = resp;
@@ -6308,7 +6308,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
             var json = JSON.stringify({ date: this.latest_date });
             var header = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]();
             header.append("Content-Type", "application/json");
-            this.http.post("http://" + this.MainSer.IPAddress + ":3000/api/clearBills", json, { headers: header })
+            this.http.post("https://" + this.MainSer.IPAddress + ":3000/api/clearBills", json, { headers: header })
                 .map(function (res) { return res.json(); })
                 .subscribe(function (res) {
                 alert("Deleted " + res + " rows - Please wait deleting pending orders.");
@@ -6324,7 +6324,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
         var json = JSON.stringify({ date: this.latest_date });
         var header = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]();
         header.append("Content-Type", "application/json");
-        this.http.post("http://" + this.MainSer.IPAddress + ":3000/api/clearPendingOrder", json, { headers: header })
+        this.http.post("https://" + this.MainSer.IPAddress + ":3000/api/clearPendingOrder", json, { headers: header })
             .map(function (res) { return res.json(); })
             .subscribe(function (res) {
             alert("Deleted " + res + " rows. Thanks for your patience.");
