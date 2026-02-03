@@ -3034,7 +3034,7 @@ var MainService = /** @class */ (function () {
         //totalTables = 9;
         // IPAddress;
         this.autoIP = true;
-        this.staticIPAddress = "192.168.0.114";
+        this.staticIPAddress = "nodejs-production-e0c89.up.railway.app";
         //For KarveRoad
         this.branchName = "karveroad";
         this.totalTables = 32;
