@@ -3033,7 +3033,7 @@ var MainService = /** @class */ (function () {
         //branchName="Bhukum";
         //totalTables = 9;
         // IPAddress;
-        this.autoIP = true;
+        this.autoIP = false;
         this.staticIPAddress = "nodejs-production-e0c89.up.railway.app";
         //For KarveRoad
         this.branchName = "karveroad";
