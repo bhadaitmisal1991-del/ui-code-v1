@@ -3123,7 +3123,7 @@ var MainService = /** @class */ (function () {
     };
     MainService.prototype.getItemsData = function () {
         var data;
-        return this.http.get("https://" + this.IPAddress + ":21425/api/GetItemsData")
+        return this.http.get("https://" + this.IPAddress + ":3000/api/GetItemsData")
             .map(function (res) { return res.json(); });
     };
     MainService.prototype.setTableNo = function (tableNo) {
