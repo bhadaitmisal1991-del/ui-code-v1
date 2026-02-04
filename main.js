@@ -3028,13 +3028,13 @@ var MainService = /** @class */ (function () {
     function MainService(http) {
         this.http = http;
         //IPAddress = "localhost";
-        this.IPAddress = "nodejs-production-e0c89.up.railway.app";
+        this.IPAddress = "nodeserver-mogq.onrender.com";
         //For Bhukum
         //branchName="Bhukum";
         //totalTables = 9;
         // IPAddress;
         this.autoIP = false;
-        this.staticIPAddress = "nodejs-production-e0c89.up.railway.app";
+        this.staticIPAddress = "nodeserver-mogq.onrender.com";
         //For KarveRoad
         this.branchName = "karveroad";
         this.totalTables = 32;
@@ -3123,7 +3123,7 @@ var MainService = /** @class */ (function () {
     };
     MainService.prototype.getItemsData = function () {
         var data;
-        return this.http.get("https://" + this.IPAddress + ":8080/api/GetItemsData")
+        return this.http.get("https://" + this.IPAddress + ":10000/api/GetItemsData")
             .map(function (res) { return res.json(); });
     };
     MainService.prototype.setTableNo = function (tableNo) {
