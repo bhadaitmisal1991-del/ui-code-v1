@@ -5913,7 +5913,6 @@ var TakeAwayHomeComponent = /** @class */ (function () {
             this.todayDate = new Date();
             this.latest_date = this.datepipe.transform(this.todayDate, 'MM-dd-yyyy');
             this.latest_time = this.datepipe.transform(this.todayDate, 'shortTime');
-            alert(this.latest_date);
             this.amt = parseInt(this.items[this.menuIndex].price) * (this.menuQty);
             this.bill.push({ "itemno": this.menuIndex, "itemname": this.items[this.menuIndex].itemname, "price": this.items[this.menuIndex].price, "qty": this.menuQty, "amount": this.amt });
             this.totalPrice += this.amt;
