@@ -5951,10 +5951,10 @@ var TakeAwayHomeComponent = /** @class */ (function () {
                     console.log('Payment ID:', response.razorpay_payment_id);
                     console.log('Order ID:', response.razorpay_order_id);
                     console.log('Signature:', response.razorpay_signature);
-                    this.paymentId = response.razorpay_payment_id;
-                    this.orderPlace = true;
-                    this.printBill();
-                    this.cdr.detectChanges();
+                    _this.paymentId = response.razorpay_payment_id;
+                    _this.orderPlace = true;
+                    _this.printBill();
+                    _this.cdr.detectChanges();
                 },
                 prefill: {
                     name: _this.cname,
