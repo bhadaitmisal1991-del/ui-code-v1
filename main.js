@@ -99,8 +99,8 @@ var AppComponent = /** @class */ (function () {
         this.tabId = id;
     };
     AppComponent.prototype.ngOnInit = function () {
-        this.MainSer.loadBeepAudio();
-        this.MainSer.loadWaiterBeepAudio();
+        // this.MainSer.loadBeepAudio();
+        //this.MainSer.loadWaiterBeepAudio();
     };
     AppComponent.prototype.ngOnChange = function () {
     };
@@ -149,32 +149,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _page_not_found_component_page_not_found_component_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./page-not-found-component/page-not-found-component.component */ "./src/app/page-not-found-component/page-not-found-component.component.ts");
 /* harmony import */ var _employees_employees_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./employees/employees.component */ "./src/app/employees/employees.component.ts");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var _report1_report1_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./report1/report1.component */ "./src/app/report1/report1.component.ts");
-/* harmony import */ var _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./vendor/vendor.component */ "./src/app/vendor/vendor.component.ts");
-/* harmony import */ var _search_pipe__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./search.pipe */ "./src/app/search.pipe.ts");
-/* harmony import */ var _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./vendor/vendor-add-paid-bill/vendor-add-paid-bill.component */ "./src/app/vendor/vendor-add-paid-bill/vendor-add-paid-bill.component.ts");
-/* harmony import */ var _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./calculation/addcalculation/addcalculation.component */ "./src/app/calculation/addcalculation/addcalculation.component.ts");
-/* harmony import */ var _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./employees/addEmployees/addEmployees.component */ "./src/app/employees/addEmployees/addEmployees.component.ts");
-/* harmony import */ var _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./employees/employeesAdvance/employeesAdvance.component */ "./src/app/employees/employeesAdvance/employeesAdvance.component.ts");
-/* harmony import */ var _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./employees/search-employee-advance/search-employee-advance.component */ "./src/app/employees/search-employee-advance/search-employee-advance.component.ts");
-/* harmony import */ var _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./calculation/calcalulation-report/calcalulation-report.component */ "./src/app/calculation/calcalulation-report/calcalulation-report.component.ts");
-/* harmony import */ var _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pav/add-pav-entry/add-pav-entry.component */ "./src/app/pav/add-pav-entry/add-pav-entry.component.ts");
-/* harmony import */ var _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pav/pav-report/pav-report.component */ "./src/app/pav/pav-report/pav-report.component.ts");
-/* harmony import */ var _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./bills/customer-bills/customer-bills.component */ "./src/app/bills/customer-bills/customer-bills.component.ts");
-/* harmony import */ var _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./vendor/add-vendor/add-vendor.component */ "./src/app/vendor/add-vendor/add-vendor.component.ts");
-/* harmony import */ var _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./vendor/search-vendor-bill/search-vendor-bill.component */ "./src/app/vendor/search-vendor-bill/search-vendor-bill.component.ts");
-/* harmony import */ var _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./bills/bill-menu/bill-menu.component */ "./src/app/bills/bill-menu/bill-menu.component.ts");
-/* harmony import */ var _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./bills/add-billing-menu/add-billing-menu.component */ "./src/app/bills/add-billing-menu/add-billing-menu.component.ts");
-/* harmony import */ var _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./farsan/farsanCustomers/farsan-customers.component */ "./src/app/farsan/farsanCustomers/farsan-customers.component.ts");
-/* harmony import */ var _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./farsan/addFarsanCustomers/add-farsan-customers.component */ "./src/app/farsan/addFarsanCustomers/add-farsan-customers.component.ts");
-/* harmony import */ var _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./farsan/add-farsan-entry/add-farsan-entry.component */ "./src/app/farsan/add-farsan-entry/add-farsan-entry.component.ts");
-/* harmony import */ var _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./farsan/search-cust-bills/search-cust-bills.component */ "./src/app/farsan/search-cust-bills/search-cust-bills.component.ts");
-/* harmony import */ var _orders_home_order_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./orders/home/order.component */ "./src/app/orders/home/order.component.ts");
-/* harmony import */ var _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./orders/order-details/order-details.component */ "./src/app/orders/order-details/order-details.component.ts");
-/* harmony import */ var _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./orders/kitchen-orders/kitchen-orders.component */ "./src/app/orders/kitchen-orders/kitchen-orders.component.ts");
-/* harmony import */ var _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./orders/order-billing/order-billing.component */ "./src/app/orders/order-billing/order-billing.component.ts");
-/* harmony import */ var _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./orders/order-billing-select-table/order-billing-select-table.component */ "./src/app/orders/order-billing-select-table/order-billing-select-table.component.ts");
-/* harmony import */ var _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./take-away-home/take-away-home.component */ "./src/app/take-away-home/take-away-home.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _report1_report1_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./report1/report1.component */ "./src/app/report1/report1.component.ts");
+/* harmony import */ var _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./vendor/vendor.component */ "./src/app/vendor/vendor.component.ts");
+/* harmony import */ var _search_pipe__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./search.pipe */ "./src/app/search.pipe.ts");
+/* harmony import */ var _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./vendor/vendor-add-paid-bill/vendor-add-paid-bill.component */ "./src/app/vendor/vendor-add-paid-bill/vendor-add-paid-bill.component.ts");
+/* harmony import */ var _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./calculation/addcalculation/addcalculation.component */ "./src/app/calculation/addcalculation/addcalculation.component.ts");
+/* harmony import */ var _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./employees/addEmployees/addEmployees.component */ "./src/app/employees/addEmployees/addEmployees.component.ts");
+/* harmony import */ var _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./employees/employeesAdvance/employeesAdvance.component */ "./src/app/employees/employeesAdvance/employeesAdvance.component.ts");
+/* harmony import */ var _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./employees/search-employee-advance/search-employee-advance.component */ "./src/app/employees/search-employee-advance/search-employee-advance.component.ts");
+/* harmony import */ var _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./calculation/calcalulation-report/calcalulation-report.component */ "./src/app/calculation/calcalulation-report/calcalulation-report.component.ts");
+/* harmony import */ var _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pav/add-pav-entry/add-pav-entry.component */ "./src/app/pav/add-pav-entry/add-pav-entry.component.ts");
+/* harmony import */ var _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pav/pav-report/pav-report.component */ "./src/app/pav/pav-report/pav-report.component.ts");
+/* harmony import */ var _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./bills/customer-bills/customer-bills.component */ "./src/app/bills/customer-bills/customer-bills.component.ts");
+/* harmony import */ var _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./vendor/add-vendor/add-vendor.component */ "./src/app/vendor/add-vendor/add-vendor.component.ts");
+/* harmony import */ var _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./vendor/search-vendor-bill/search-vendor-bill.component */ "./src/app/vendor/search-vendor-bill/search-vendor-bill.component.ts");
+/* harmony import */ var _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./bills/bill-menu/bill-menu.component */ "./src/app/bills/bill-menu/bill-menu.component.ts");
+/* harmony import */ var _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./bills/add-billing-menu/add-billing-menu.component */ "./src/app/bills/add-billing-menu/add-billing-menu.component.ts");
+/* harmony import */ var _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./farsan/farsanCustomers/farsan-customers.component */ "./src/app/farsan/farsanCustomers/farsan-customers.component.ts");
+/* harmony import */ var _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./farsan/addFarsanCustomers/add-farsan-customers.component */ "./src/app/farsan/addFarsanCustomers/add-farsan-customers.component.ts");
+/* harmony import */ var _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./farsan/add-farsan-entry/add-farsan-entry.component */ "./src/app/farsan/add-farsan-entry/add-farsan-entry.component.ts");
+/* harmony import */ var _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./farsan/search-cust-bills/search-cust-bills.component */ "./src/app/farsan/search-cust-bills/search-cust-bills.component.ts");
+/* harmony import */ var _orders_home_order_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./orders/home/order.component */ "./src/app/orders/home/order.component.ts");
+/* harmony import */ var _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./orders/order-details/order-details.component */ "./src/app/orders/order-details/order-details.component.ts");
+/* harmony import */ var _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./orders/kitchen-orders/kitchen-orders.component */ "./src/app/orders/kitchen-orders/kitchen-orders.component.ts");
+/* harmony import */ var _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./orders/order-billing/order-billing.component */ "./src/app/orders/order-billing/order-billing.component.ts");
+/* harmony import */ var _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./orders/order-billing-select-table/order-billing-select-table.component */ "./src/app/orders/order-billing-select-table/order-billing-select-table.component.ts");
+/* harmony import */ var _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./take-away-home/take-away-home.component */ "./src/app/take-away-home/take-away-home.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -217,33 +218,34 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var appRoutes = [
-    { path: 'home', component: _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_34__["TakeAwayHomeComponent"] },
-    { path: 'report1', component: _report1_report1_component__WEBPACK_IMPORTED_MODULE_9__["Report1Component"] },
+    { path: 'home', component: _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_35__["TakeAwayHomeComponent"] },
+    { path: 'report1', component: _report1_report1_component__WEBPACK_IMPORTED_MODULE_10__["Report1Component"] },
     { path: 'employees', component: _employees_employees_component__WEBPACK_IMPORTED_MODULE_7__["EmployeesComponent"] },
-    { path: 'vendors', component: _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_10__["VendorComponent"] },
-    { path: 'addVendor', component: _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_21__["AddVendorComponent"] },
-    { path: 'vendorAddPaidBill', component: _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_12__["VendorAddPaidBillComponent"] },
-    { path: 'searchVendorBill', component: _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_22__["SearchVendorBillComponent"] },
-    { path: 'addCalculation', component: _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_13__["AddcalculationComponent"] },
-    { path: 'calculationReport', component: _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_17__["CalcalulationReportComponent"] },
-    { path: 'addEmployees', component: _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_14__["AddEmployeesComponent"] },
-    { path: 'employeesAdvance', component: _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_15__["EmployeesAdvanceComponent"] },
-    { path: 'searchEmployeesAdvance', component: _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_16__["SearchEmployeeAdvanceComponent"] },
-    { path: 'addPavEntry', component: _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_18__["AddPavEntryComponent"] },
-    { path: 'pavReport', component: _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_19__["PavReportComponent"] },
-    { path: 'customerBills', component: _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_20__["CustomerBillsComponent"] },
-    { path: 'billsMenu', component: _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_23__["BillMenuComponent"] },
-    { path: 'addBillingMenu', component: _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_24__["AddBillingMenuComponent"] },
-    { path: 'farsan', component: _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_25__["FarsanCustomersComponent"] },
-    { path: 'addFarsanCustomers', component: _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__["AddFarsanCustomersComponent"] },
-    { path: 'addFarsanEntry', component: _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_27__["AddFarsanEntryComponent"] },
-    { path: 'searchCustBills', component: _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_28__["SearchCustBillsComponent"] },
-    { path: 'selectTable', component: _orders_home_order_component__WEBPACK_IMPORTED_MODULE_29__["OrderComponent"] },
-    { path: 'orderDetails', component: _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_30__["OrderDetailsComponent"] },
-    { path: 'kitchenOrders', component: _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_31__["KitchenOrdersComponent"] },
-    { path: 'selectBillingTable', component: _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_33__["OrderBillingSelectTableComponent"] },
-    { path: 'tableBilling', component: _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_32__["OrderBillingComponent"] },
+    { path: 'vendors', component: _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_11__["VendorComponent"] },
+    { path: 'addVendor', component: _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_22__["AddVendorComponent"] },
+    { path: 'vendorAddPaidBill', component: _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_13__["VendorAddPaidBillComponent"] },
+    { path: 'searchVendorBill', component: _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_23__["SearchVendorBillComponent"] },
+    { path: 'addCalculation', component: _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_14__["AddcalculationComponent"] },
+    { path: 'calculationReport', component: _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_18__["CalcalulationReportComponent"] },
+    { path: 'addEmployees', component: _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_15__["AddEmployeesComponent"] },
+    { path: 'employeesAdvance', component: _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_16__["EmployeesAdvanceComponent"] },
+    { path: 'searchEmployeesAdvance', component: _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_17__["SearchEmployeeAdvanceComponent"] },
+    { path: 'addPavEntry', component: _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_19__["AddPavEntryComponent"] },
+    { path: 'pavReport', component: _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_20__["PavReportComponent"] },
+    { path: 'customerBills', component: _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_21__["CustomerBillsComponent"] },
+    { path: 'billsMenu', component: _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_24__["BillMenuComponent"] },
+    { path: 'addBillingMenu', component: _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_25__["AddBillingMenuComponent"] },
+    { path: 'farsan', component: _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__["FarsanCustomersComponent"] },
+    { path: 'addFarsanCustomers', component: _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_27__["AddFarsanCustomersComponent"] },
+    { path: 'addFarsanEntry', component: _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_28__["AddFarsanEntryComponent"] },
+    { path: 'searchCustBills', component: _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_29__["SearchCustBillsComponent"] },
+    { path: 'selectTable', component: _orders_home_order_component__WEBPACK_IMPORTED_MODULE_30__["OrderComponent"] },
+    { path: 'orderDetails', component: _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_31__["OrderDetailsComponent"] },
+    { path: 'kitchenOrders', component: _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_32__["KitchenOrdersComponent"] },
+    { path: 'selectBillingTable', component: _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_34__["OrderBillingSelectTableComponent"] },
+    { path: 'tableBilling', component: _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_33__["OrderBillingComponent"] },
     { path: '',
         redirectTo: '/home',
         pathMatch: 'full'
@@ -260,38 +262,39 @@ var AppModule = /** @class */ (function () {
                 _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
                 _page_not_found_component_page_not_found_component_component__WEBPACK_IMPORTED_MODULE_6__["PageNotFoundComponentComponent"],
                 _employees_employees_component__WEBPACK_IMPORTED_MODULE_7__["EmployeesComponent"],
-                _report1_report1_component__WEBPACK_IMPORTED_MODULE_9__["Report1Component"],
-                _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_10__["VendorComponent"],
-                _search_pipe__WEBPACK_IMPORTED_MODULE_11__["SearchPipe"],
-                _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_12__["VendorAddPaidBillComponent"],
-                _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_13__["AddcalculationComponent"],
-                _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_14__["AddEmployeesComponent"],
-                _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_15__["EmployeesAdvanceComponent"],
-                _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_16__["SearchEmployeeAdvanceComponent"],
-                _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_17__["CalcalulationReportComponent"],
-                _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_18__["AddPavEntryComponent"],
-                _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_19__["PavReportComponent"],
-                _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_20__["CustomerBillsComponent"],
-                _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_21__["AddVendorComponent"],
-                _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_22__["SearchVendorBillComponent"],
-                _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_23__["BillMenuComponent"],
-                _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_24__["AddBillingMenuComponent"],
-                _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_25__["FarsanCustomersComponent"],
-                _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__["AddFarsanCustomersComponent"],
-                _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_27__["AddFarsanEntryComponent"],
-                _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_28__["SearchCustBillsComponent"],
-                _orders_home_order_component__WEBPACK_IMPORTED_MODULE_29__["OrderComponent"],
-                _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_30__["OrderDetailsComponent"],
-                _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_31__["KitchenOrdersComponent"],
-                _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_32__["OrderBillingComponent"],
-                _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_33__["OrderBillingSelectTableComponent"],
-                _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_34__["TakeAwayHomeComponent"]
+                _report1_report1_component__WEBPACK_IMPORTED_MODULE_10__["Report1Component"],
+                _vendor_vendor_component__WEBPACK_IMPORTED_MODULE_11__["VendorComponent"],
+                _search_pipe__WEBPACK_IMPORTED_MODULE_12__["SearchPipe"],
+                _vendor_vendor_add_paid_bill_vendor_add_paid_bill_component__WEBPACK_IMPORTED_MODULE_13__["VendorAddPaidBillComponent"],
+                _calculation_addcalculation_addcalculation_component__WEBPACK_IMPORTED_MODULE_14__["AddcalculationComponent"],
+                _employees_addEmployees_addEmployees_component__WEBPACK_IMPORTED_MODULE_15__["AddEmployeesComponent"],
+                _employees_employeesAdvance_employeesAdvance_component__WEBPACK_IMPORTED_MODULE_16__["EmployeesAdvanceComponent"],
+                _employees_search_employee_advance_search_employee_advance_component__WEBPACK_IMPORTED_MODULE_17__["SearchEmployeeAdvanceComponent"],
+                _calculation_calcalulation_report_calcalulation_report_component__WEBPACK_IMPORTED_MODULE_18__["CalcalulationReportComponent"],
+                _pav_add_pav_entry_add_pav_entry_component__WEBPACK_IMPORTED_MODULE_19__["AddPavEntryComponent"],
+                _pav_pav_report_pav_report_component__WEBPACK_IMPORTED_MODULE_20__["PavReportComponent"],
+                _bills_customer_bills_customer_bills_component__WEBPACK_IMPORTED_MODULE_21__["CustomerBillsComponent"],
+                _vendor_add_vendor_add_vendor_component__WEBPACK_IMPORTED_MODULE_22__["AddVendorComponent"],
+                _vendor_search_vendor_bill_search_vendor_bill_component__WEBPACK_IMPORTED_MODULE_23__["SearchVendorBillComponent"],
+                _bills_bill_menu_bill_menu_component__WEBPACK_IMPORTED_MODULE_24__["BillMenuComponent"],
+                _bills_add_billing_menu_add_billing_menu_component__WEBPACK_IMPORTED_MODULE_25__["AddBillingMenuComponent"],
+                _farsan_farsanCustomers_farsan_customers_component__WEBPACK_IMPORTED_MODULE_26__["FarsanCustomersComponent"],
+                _farsan_addFarsanCustomers_add_farsan_customers_component__WEBPACK_IMPORTED_MODULE_27__["AddFarsanCustomersComponent"],
+                _farsan_add_farsan_entry_add_farsan_entry_component__WEBPACK_IMPORTED_MODULE_28__["AddFarsanEntryComponent"],
+                _farsan_search_cust_bills_search_cust_bills_component__WEBPACK_IMPORTED_MODULE_29__["SearchCustBillsComponent"],
+                _orders_home_order_component__WEBPACK_IMPORTED_MODULE_30__["OrderComponent"],
+                _orders_order_details_order_details_component__WEBPACK_IMPORTED_MODULE_31__["OrderDetailsComponent"],
+                _orders_kitchen_orders_kitchen_orders_component__WEBPACK_IMPORTED_MODULE_32__["KitchenOrdersComponent"],
+                _orders_order_billing_order_billing_component__WEBPACK_IMPORTED_MODULE_33__["OrderBillingComponent"],
+                _orders_order_billing_select_table_order_billing_select_table_component__WEBPACK_IMPORTED_MODULE_34__["OrderBillingSelectTableComponent"],
+                _take_away_home_take_away_home_component__WEBPACK_IMPORTED_MODULE_35__["TakeAwayHomeComponent"]
             ],
             imports: [
                 _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(appRoutes, { useHash: true }),
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"],
                 _angular_http__WEBPACK_IMPORTED_MODULE_8__["HttpModule"]
             ],
             providers: [],
@@ -3007,7 +3010,7 @@ var HomeComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainService", function() { return MainService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _calculation_addcalculation_addCalculation_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calculation/addcalculation/addCalculation.model */ "./src/app/calculation/addcalculation/addCalculation.model.ts");
 /* harmony import */ var rxjs_BehaviorSubject__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/BehaviorSubject */ "./node_modules/rxjs-compat/_esm5/BehaviorSubject.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -3122,9 +3125,15 @@ var MainService = /** @class */ (function () {
             return this.bhukumShopMode;
     };
     MainService.prototype.getItemsData = function () {
-        var data;
         return this.http.get(this.IPAddress + "/api/GetItemsData")
-            .map(function (res) { return res.json(); });
+            .map(function (res) { return res; });
+    };
+    MainService.prototype.createOrder = function (amount, currency) {
+        return this.http.post(this.IPAddress + "/api/createOrder", { amount: amount, currency: currency });
+    };
+    MainService.prototype.getDineInItemsData = function () {
+        return this.http.get(this.IPAddress + "/api/GetDineInItemsData")
+            .map(function (res) { return res; });
     };
     MainService.prototype.setTableNo = function (tableNo) {
         this.tableNo = tableNo;
@@ -3145,12 +3154,12 @@ var MainService = /** @class */ (function () {
         }, {});
     };
     MainService.prototype.loadBeepAudio = function () {
-        //this.beepAudio.src = "../assets/kitchenBeep.mp3";
-        //this.beepAudio.load();
+        this.beepAudio.src = "../assets/kitchenBeep.mp3";
+        this.beepAudio.load();
     };
     MainService.prototype.playBeepAudio = function () {
         //console.log("playBeepAudio");
-        //this.beepAudio.play();
+        this.beepAudio.play();
     };
     MainService.prototype.loadWaiterBeepAudio = function () {
         //this.beepTableAudio.src = "../assets/readybeep.mp3";
@@ -3164,7 +3173,7 @@ var MainService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
     ], MainService);
     return MainService;
 }());
@@ -3493,7 +3502,7 @@ var OrderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "table\r\n{\r\nfont-size: 20px;\r\n} \r\nbutton, input, optgroup, select, textarea {\r\n    /* margin: 0; */\r\n     font-family: Arial, Helvetica, sans-serif!important; \r\n    /* font-size: inherit; */\r\n     line-height: inherit; \r\n    font-size: 13.3333px !important;\r\n    font-family: Arial !important;\r\n} \r\n*, ::after, ::before{\r\n    box-sizing: content-box !important;\r\n} \r\n.billDiv tr td, .billDiv tr th{\r\n    padding: 0px 10px 0px 9px;\r\n  } \r\ntable tr:nth-child(1) th{\r\n    background: #f1f1f1;\r\n} \r\n.billDiv div\r\n{\r\n    text-align: center;\r\n    font-weight: bold;\r\n    width: 448px;\r\n    font-size: 20px;\r\n} \r\n.billDiv div:nth(1)\r\n{\r\n    text-align: left;\r\n} \r\n.billDiv th:nth(1)\r\n{\r\n    width:30px;\r\n} \r\n.billDiv td:nth(2){\r\n    TEXT-align: left;\r\n} \r\n.billDiv th\r\n{\r\n    text-align: left;\r\n} \r\n.billDiv\r\n{\r\n    margin-top: 25px;\r\n    padding-top: 5px;\r\n    width: 565px;\r\n    font-size: 12px;\r\n    border: thin dotted #000;\r\n\r\n} \r\n.row{\r\n    margin-right: 0px;\r\n} \r\n@media print {\r\n  body *{\r\n    visibility: hidden !important;\r\n   \r\n    }\r\n   \r\n  }"
+module.exports = "table\r\n{\r\nfont-size: 14px;\r\n} \r\nbutton, input, optgroup, select, textarea {\r\n    /* margin: 0; */\r\n     font-family: Arial, Helvetica, sans-serif!important; \r\n    /* font-size: inherit; */\r\n     line-height: inherit; \r\n    font-size: 13.3333px !important;\r\n    font-family: Arial !important;\r\n} \r\n*, ::after, ::before{\r\n    box-sizing: content-box !important;\r\n} \r\n.billDiv tr td, .billDiv tr th{\r\n    padding: 0px 10px 0px 9px;\r\n  } \r\ntable tr:nth-child(1) th{\r\n    background: #f1f1f1;\r\n} \r\n.billDiv div\r\n{\r\n    text-align: center;\r\n    font-weight: bold;\r\n    width: 448px;\r\n    font-size: 14px;\r\n} \r\n.billDiv div:nth(1)\r\n{\r\n    text-align: left;\r\n} \r\n.billDiv th:nth(1)\r\n{\r\n    width:30px;\r\n} \r\n.billDiv td:nth(2){\r\n    TEXT-align: left;\r\n} \r\n.billDiv th\r\n{\r\n    text-align: left;\r\n} \r\n.billDiv\r\n{\r\n    margin-top: 0px;\r\n    padding-top: 5px;\r\n    width: 565px;\r\n    font-size: 14px;\r\n    border: none;\r\n} \r\n.row{\r\n    margin-right: 0px;\r\n} \r\n/* Toggle CSS */ \r\n.switch {\r\n    position: relative;\r\n    display: inline-block;\r\n    width: 60px;\r\n    height: 34px;\r\n  } \r\n.switch input { \r\n    opacity: 0;\r\n    width: 0;\r\n    height: 0;\r\n  } \r\n.slider {\r\n    position: absolute;\r\n    cursor: pointer;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    background-color: #ccc;\r\n    transition: .4s;\r\n  } \r\n.slider:before {\r\n    position: absolute;\r\n    content: \"\";\r\n    height: 26px;\r\n    width: 26px;\r\n    left: 4px;\r\n    bottom: 4px;\r\n    background-color: white;\r\n    transition: .4s;\r\n  } \r\ninput:checked + .slider {\r\n    background-color: #2196F3;\r\n  } \r\ninput:focus + .slider {\r\n    box-shadow: 0 0 1px #2196F3;\r\n  } \r\ninput:checked + .slider:before {\r\n    -webkit-transform: translateX(26px);\r\n    transform: translateX(26px);\r\n  } \r\n/* Rounded sliders */ \r\n.slider.round {\r\n    border-radius: 34px;\r\n  } \r\n.slider.round:before {\r\n    border-radius: 50%;\r\n  } \r\n/* Toggle CSS */ \r\n@media print {\r\n  body *{\r\n    visibility: hidden !important;\r\n   \r\n    }\r\n    .billDiv\r\n    {\r\n     margin-left: -5px;\r\n     margin-top: 18px;\r\n     visibility: hidden !important;\r\n    }\r\n\r\n    .billDiv td:nth-last-child(1){\r\n        visibility: visible !important;\r\n    }\r\n    \r\n\r\n    .billDiv th:nth-last-child(1){\r\n        visibility: visible !important;\r\n    }\r\n    .billDiv img\r\n    {\r\n      visibility: visible !important;      \r\n    }\r\n    .tableHide{\r\n        display: none !important;\r\n    }\r\n\r\n    .tableShow{\r\n        display: block !important;\r\n    }\r\n   \r\n}"
 
 /***/ }),
 
@@ -3504,7 +3513,7 @@ module.exports = "table\r\n{\r\nfont-size: 20px;\r\n} \r\nbutton, input, optgrou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n \n <div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-7\">\n\n      <h3><b>Bhadait Misal</b></h3>\n      &nbsp;<input type=\"date\" [(ngModel)]=\"selectedDate\" [max]=\"todaySysDate\"/>&nbsp;\n      <button class=\"btn btn-success\" (click)=\"getOrdersByDate()\" [disabled]=\"!selectedDate\">Order History</button>\n    </div>\n    <div class=\"col-sm-4 ml-4 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"pageMargin\">\n  <div *ngIf=\"!tableBill.length\">\n      <h3>No New Order!<br><br>Focus on Cleaning Kitchen Area!!</h3>\n  </div>     \n    \n  <div id=\"billDiv\"  *ngIf=\"bill.length || tableBill.length\" >\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n        <!-- <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>  -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n\n        <div *ngFor=\"let key of billTablesObjectKeys; let i = index;trackBy: trackChatMessage\">\n          <br><table cellpadding=5 border=\"1\">\n            <!-- <tr>\n                <th colspan=\"5\" style='text-align:center'></th>\n                <th></th>\n            </tr> -->\n              <tr>\n                <!-- <th align=\"left\" colspan=\"2\" >Bill No: {{billno}}<br>Name: {{cname | titlecase}}</th> -->\n                <th  colspan=\"2\"><!-- Table No: {{billTablesObject[key][0].tableno}}<br> -->\n                  Name: {{billTablesObject[key][0].cname}}<br>Mo: {{billTablesObject[key][0].mobileno}}</th>\n                <th  colspan=\"2\" style='text-align:right;'>Date: {{billTablesObject[key][0].date | date:'dd/MM/yyyy'}}<br>Time: {{billTablesObject[key][0].time}}</th>\n              </tr> \n            <tr>\n                <th>Sr</th>\n                <th style=\"width: 126px\">Item Name</th>\n                <th>Qty</th>\n                <th align=\"center\" >Note</th>\n                <!-- <th >Price</th>\n                <th >Amount</th> \n                <th >Action</th>-->\n            </tr>\n      \n            <tr *ngFor=\"let b of billTablesObject[key]; let j = index;trackBy: trackChatMessage\">\n              <td>{{j+1}}</td>\n              <td align=\"left\">{{this.items[b.itemno-1].itemname}}</td>\n              <td align=\"center\">{{b.qty}}</td>\n              <td   [innerHTML]=\"b.note\"></td>\n             <!--  <td align=\"right\">{{this.items[b.itemno-1].price}}</td>\n              <td align=\"right\">{{getTotalBillAmount(b.qty * this.items[b.itemno-1].price)}}</td> -->\n            </tr> \n           <!--  <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n                <td>{{i+1}}</td>\n                <td>{{b.itemname}}</td>\n                <td align=\"right\">{{b.qty}}</td>\n                <td align=\"right\">{{b.price}}</td>\n                <td align=\"right\">{{b.amount}}</td> \n                <td><button (click)=\"removeMenu(i)\">Remove</button></td>\n            </tr>      -->\n            <tr  *ngIf=\"!getAllOrders\">\n<!--               <td colspan=\"2\" align=\"left\" style='font-weight:bold;' [innerHTML]=\"billTablesObject[key][billTablesObject[key].length-1].note\"></td>\n -->              <!-- <td colspan=\"1\"  align=\"right\" style='font-weight:bold;'>Rs.{{totalPrice}}</td> -->\n \n              <td colspan=\"4\" align=\"right\"><button (click)=\"markOrderReady(billTablesObject[key])\">Order Ready</button></td>\n            </tr>\n            <tr style='font-size:18px' \n            *ngIf=\"spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n              <td style='font-weight:bold;'>Note:</td>\n              <td colspan=\"4\" style=\"width: 300px;font-weight:bold;\">\n                <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n                <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n                <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n                <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n                <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n                <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n                <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n                <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n                <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n                <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n                <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n                <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n                <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span>\n                <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n                <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n                <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n              </td>\n              <td></td>\n            </tr>\n          <!--  <tr>\n                <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n                  <td></td>\n            </tr>   -->    \n          </table>\n        </div>\n        \n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n      </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table class=\"\">\n        <tr>\n          <td>CN: <input type=\"text\" style=\"width: 50px;\" [(ngModel)]=\"cname\"></td>\n\n          <td><b>Instruction:</b></td>\n          <td>Medium <input id=\"mediumRassa\" type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>&nbsp;&nbsp;Spicy <input style=\"width: 50px;\" type=\"number\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>Non Spicy <input type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr>\n          <td><input type=\"checkbox\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> 1. Spicy&nbsp;&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> 2. No Tarri&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> 3. Tarri Sep.&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> 4. No Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> 5. No Matki&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> 6. No Pav&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> 7. No Bundi&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> 8. Ex Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> 9. Ex Matki&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> 0. Pack Seperate&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> 11. No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> 11. Ex Bundi&nbsp;&nbsp;</td>\n          <td colspan=\"3\"><input type=\"text\" [(ngModel)]=\"spNote\" placeholder=\"Special Note\"/></td>\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n       \n      \n  </span>\n  </div>\n\n"
+module.exports = "<div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-7\">\n      <h3><b>BHADAIT MISAL</b></h3>\n      \n       \n      &nbsp;<input type=\"date\" [(ngModel)]=\"selectedDate\" [max]=\"todaySysDate\"/>&nbsp;\n      <button class=\"btn btn-success\" (click)=\"getOrdersByDate()\" [disabled]=\"!selectedDate\">Order History</button>\n    </div>\n    <div class=\"col-sm-4 ml-4 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"pageMargin\">\n    <h3>\n      <label class=\"switch\">        \n        <input type=\"checkbox\" [(ngModel)]=\"onlineStatus\" (ngModelChange)=\"onlineStatusChange()\">\n        <span class=\"slider round\"></span>      \n      </label>\n      <B> ON / OFF </B>\n    </h3> \n    \n  <div *ngIf=\"!tableBill.length\">\n      <h3>No New Order!<br><br>Focus on Cleaning Kitchen Area!!</h3>\n  </div> \n  <div *ngIf=\"tableBill.length\"> \n      <h3><b>Total Order: {{totKitchenOrder}}</b></h3>\n      \n      <!-- <div class=\"col-sm-12 row\">Search : &nbsp; <input  [(ngModel)]=\"searchString\"></div><br> -->\n      \n  </div> \n     \n    \n  <div id=\"billDiv\"  class=\"billDiv\" *ngIf=\"bill.length || tableBill.length\" >\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n        <!-- <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>  -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n\n        <div *ngFor=\"let key of billTablesObjectKeys | filter : 'cname' : searchString; let i = index;trackBy: trackById\">\n          <br class=\"tableHide\"/><table class=\"tableHide\" [attr.id]=\"'table_' + i\" cellpadding=5 border=\"1\">\n            <tr>\n                <th colspan=\"5\" style='text-align:center'>BHADAIT MISAL</th>\n            </tr> \n              <tr>\n                <!-- <th align=\"left\" >Bill No: {{billno}}</th> -->\n                <th  colspan=\"3\"><!-- Table No: {{billTablesObject[key][0].tableno}}<br> -->\n                  Bill No: {{billTablesObject[key][0].billno}}<br>\n                  Name: {{billTablesObject[key][0].cname}}<br>Mo: {{billTablesObject[key][0].mobileno}}</th>\n                <th  colspan=\"2\" style='text-align:right;'>Date: {{billTablesObject[key][0].date | date:'dd/MM/yyyy'}}<br>Time: {{billTablesObject[key][0].time}}</th>\n              </tr> \n            <tr>\n                <th>Sr</th>\n                <th style=\"width: 100px\">Item Name</th>\n                <th style=\"width: 30px\">Qty</th>                \n                 <th align=\"center\">Price</th>\n                <th align=\"right\">Amt</th> \n                <!-- <th align=\"center\" style=\"width: 50px\">Note</th> -->\n               <!-- <th >Action</th>-->\n            </tr>\n      \n            <tr *ngFor=\"let b of billTablesObject[key]; let j = index;trackBy: trackById\">\n              <td>{{j+1}}</td>\n              <td align=\"left\">{{this.items[b.itemno-1].itemname}}</td>\n              <td align=\"center\">{{b.qty}}</td>\n              <td align=\"right\">{{this.items[b.itemno-1].price}}</td>\n              <td align=\"right\">{{getTotalBillAmount(b.qty,this.items[b.itemno-1].price,i)}}</td> \n              <!-- <td *ngIf=\"j==billTablesObject[key].length-1\" [innerHTML]=\"b.note\"></td>   -->             \n            </tr> \n           <!--  <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n                <td>{{i+1}}</td>\n                <td>{{b.itemname}}</td>\n                <td align=\"right\">{{b.qty}}</td>\n                <td align=\"right\">{{b.price}}</td>\n                <td align=\"right\">{{b.amount}}</td> \n                <td><button (click)=\"removeMenu(i)\">Remove</button></td>\n            </tr>     *ngIf=\"!getAllOrders\" -->\n            <tr>\n             <td>Note</td>\n             <td colspan=\"2\" align=\"left\" style='font-weight:bold;' [innerHTML]=\"billTablesObject[key][billTablesObject[key].length-1].note\"></td>\n               <!--  <td colspan=\"1\"  align=\"right\" style='font-weight:bold;'>Rs.{{totalPrice}}</td> -->\n                  \n              <td><button *ngIf=\"!getAllOrders\" (click)=\"markOrderReady(billTablesObject[key])\">Ready</button></td>\n              <td><button (click)=\"printBill(i)\">Print</button></td>\n            </tr>\n            <tr style='font-size:18px' \n            *ngIf=\"spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n              <td style='font-weight:bold;'>Note:</td>\n              <td colspan=\"4\" style=\"width: 300px;font-weight:bold;\">\n                <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n                <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n                <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n                <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n                <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n                <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n                <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n                <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n                <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n                <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n                <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n                <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n                <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span>\n                <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n                <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n                <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n              </td>\n              <td></td>\n            </tr>\n          <!--  <tr>\n                <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n                  <td></td>\n            </tr>   -->    \n          </table>\n        </div>\n        \n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n    </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table class=\"\">\n        <tr>\n          <td>CN: <input type=\"text\" style=\"width: 50px;\" [(ngModel)]=\"cname\"></td>\n\n          <td><b>Instruction:</b></td>\n          <td>Medium <input id=\"mediumRassa\" type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>&nbsp;&nbsp;Spicy <input style=\"width: 50px;\" type=\"number\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>Non Spicy <input type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr>\n          <td><input type=\"checkbox\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> 1. Spicy&nbsp;&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> 2. No Tarri&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> 3. Tarri Sep.&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> 4. No Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> 5. No Matki&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> 6. No Pav&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> 7. No Bundi&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> 8. Ex Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> 9. Ex Matki&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> 0. Pack Seperate&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> 11. No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> 11. Ex Bundi&nbsp;&nbsp;</td>\n          <td colspan=\"3\"><input type=\"text\" [(ngModel)]=\"spNote\" placeholder=\"Special Note\"/></td>\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n       \n      \n  </span>\n  </div>\n\n"
 
 /***/ }),
 
@@ -3581,6 +3590,9 @@ var KitchenOrdersComponent = /** @class */ (function () {
         this.totKitchenOrder = 0;
         this.disabledReadyBtn = false;
         this.getAllOrders = false;
+        this.billTableCount = 0;
+        this.lastTableNo = null;
+        this.onlineStatus = false;
         this.MainSer.customerOrderMode = true;
         this.MainSer.getItemsData().subscribe(function (resp) { return _this.items = resp; });
         //this.getItemsData()
@@ -3782,6 +3794,7 @@ var KitchenOrdersComponent = /** @class */ (function () {
     };
     KitchenOrdersComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.MainSer.loadBeepAudio();
         var tmptodaySysDate = new Date();
         this.todaySysDate = this.datepipe.transform(tmptodaySysDate, 'yyyy-MM-dd');
         this.selectedDate = this.datepipe.transform(tmptodaySysDate, 'yyyy-MM-dd');
@@ -3822,7 +3835,6 @@ var KitchenOrdersComponent = /** @class */ (function () {
         if (this.totKitchenOrder < this.billTablesObjectKeys.length) {
             this.totKitchenOrder = this.billTablesObjectKeys.length;
             this.MainSer.playBeepAudio();
-            //console.log("audio..")
         }
     };
     KitchenOrdersComponent.prototype.ngOnDestroy = function () {
@@ -3830,8 +3842,39 @@ var KitchenOrdersComponent = /** @class */ (function () {
             clearInterval(this.timer);
         }
     };
-    KitchenOrdersComponent.prototype.getTotalBillAmount = function (amt) {
-        return amt;
+    KitchenOrdersComponent.prototype.getTotalBillAmount = function (qty, price, i) {
+        if (this.billTableCount == i) {
+            console.log("iiiiiii - " + i);
+            this.billTableCount++;
+            // this.totalPrice=0;
+        }
+        this.totalPrice = this.totalPrice + qty * price;
+        //this.billTableCount++;
+        return qty * price;
+    };
+    KitchenOrdersComponent.prototype.trackById = function (index, item) {
+        return item.itemname; // Assuming each item has a unique 'id'
+    };
+    KitchenOrdersComponent.prototype.printBill = function (tableNo) {
+        if (this.lastTableNo != null) {
+            document.getElementById('table_' + this.lastTableNo).classList.remove('tableShow');
+            console.log("Hide-  " + this.lastTableNo);
+        }
+        this.lastTableNo = tableNo;
+        console.log("Show-  " + tableNo);
+        document.getElementById('table_' + tableNo).classList.add('tableShow');
+        window.print();
+    };
+    KitchenOrdersComponent.prototype.onlineStatusChange = function () {
+        console.log(".." + this.items);
+        if (this.onlineStatus) {
+            alert("you are online");
+            //this.onlineStatus = false;
+        }
+        else {
+            //this.onlineStatus = true;
+            alert("you are offline");
+        }
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -4465,7 +4508,7 @@ module.exports = "table\r\n{\r\nfont-size: 20px;\r\n} \r\nbutton, input, optgrou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n \n <div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-7\">\n      <button (click)=\"router.navigate(['selectTable'], {});\" style=\"height: 25px;width: 50px;\">Back</button>\n\n     &nbsp;&nbsp; <b>11Order For Table No : {{MainSer.getTableNo()}}</b>\n    </div>\n    <div class=\"col-sm-4 ml-4 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"pageMargin\" >\n    <!-- <form [formGroup]=\"billForm\" (ngSubmit)=\"onSubmit()\">\n        <div *ngFor=\"let validation of menuListDetails.menuQty\">\n            <div  *ngIf=\"billForm.get('menuQty').hasError(validation.type) && billForm.get('menuQty').dirty || billForm.get('menuQty').touched\">\n             {{validation.message}}\n            </div>\n        </div> \n          <div *ngFor=\"let validation of menuListDetails.itemList\">\n              <div  *ngIf=\"billForm.get('itemList').hasError(validation.type) && billForm.get('itemList').dirty || billForm.get('itemList').touched\">\n               {{validation.message}}\n              </div>\n          </div> \n          <select  formControlName=\"itemList\">\n              <option value=\"\" disabled>Select</option>\n              <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n            \n            </select>\n            <input type=\"number\" formControlName=\"menuQty\"/>\n            <button type=\"submit\">Submit</button>\n      </form> -->\n\n\n Menu Name:\n <select  [(ngModel)]=\"menuIndex\" tabindex=\"0\" id=\"menu\">\n    <option value=\"\">0 Select Menu</option>\n    <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n  <!--  <option value=\"1\">2 Dahi Misal</option>\n    <option value=\"2\">3 Vada Pav</option> -->\n  </select> <BR> <BR>\n  Quantity:\n  <input type=\"number\" [(ngModel)]=\"menuQty\" min=\"1\" max=\"99\" size=\"2\" (keyup)=\"onKeyup($event)\" (keypress)=\"onKeypress($event)\"/>\n  &nbsp;&nbsp;&nbsp;  \n  <button (click)=\"minusQty()\">Minus -</button>\n  &nbsp;<button (click)=\"plusQty()\">Plus +</button>\n  &nbsp;<button (click)=\"addMenu()\" [disabled]=\"billEditMode\">Add</button> \n\n  <BR> <BR>\n\n  <div id=\"billDiv\" class=\"\" *ngIf=\"this.tableBill?.length || this.bill?.length\" >\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n        <!-- <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>  -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n    <table cellpadding=3 border=\"1\" *ngIf=\"this.tableBill?.length || this.bill?.length\">\n        <!-- <tr>\n            <th colspan=\"5\" style='text-align:center'></th>\n            <th></th>\n        </tr> -->\n        <tr *ngIf=\"tableBill[tableBill.length-1]\">\n          <th align=\"left\" colspan=\"2\" >Bill No: {{billno}}<br>Name: {{cname | titlecase}}</th>\n          <th  colspan=\"4\" style='text-align:right;'>Date: {{tableBill[tableBill.length-1].date | date:'dd/MM/yyyy'}}<br>Time: {{tableBill[tableBill.length-1].time}}</th>\n          <th><button (click)=\"billPaid()\" [disabled]=\"bill.length\">PAID</button></th>\n\n        </tr> \n      <tr>\n          <th>Sr</th>\n          <th style=\"width: 126px\" >Item Name</th>\n          <th style=\"width: 10px\">Qt</th>\n          <th style=\"width: 10px;text-align: center;\">&#8377;</th>\n          <th style=\"width: 10px\">Am</th>\n          <th >Note</th>\n          <th style=\"font-size: 12px;\">Action</th>\n      </tr>\n      <ng-container *ngIf=\"this.tableBill?.length\">\n      <tr *ngFor=\"let b of tableBill; let i = index;trackBy: trackChatMessage\">\n        <td>{{i+1}}</td>\n        <td>{{this.items[b.itemno-1].itemname}}</td>\n        <td align=\"center\">{{b.qty}}</td>\n        <td align=\"right\">{{this.items[b.itemno-1].price}}</td>\n        <td align=\"center\">{{getTotalBillAmount(b.qty * this.items[b.itemno-1].price)}}</td>\n        <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note+'- '+b.waitername\">\n        </td>\n        <td></td>\n    </tr>\n    </ng-container>\n    <ng-container *ngIf=\"this.bill?.length && !billEditMode\">\n      <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n           <td>{{i+1}}</td>\n           <td>{{b.itemname}}</td>\n           <td align=\"center\" >{{b.qty}}</td>\n           <td>{{b.price}}</td>\n           <td align=\"center\">{{b.amount}}</td>\n           <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note\"></td>\n\n           <td align=\"center\"><button (click)=\"removeMenu(i)\">RM</button></td>\n      </tr> \n    </ng-container><br>\n    <ng-container *ngIf=\"billEditMode && this.bill?.length\"> <!-- For edit Mode -->\n      \n        <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n          <td>{{i+1}}</td>\n          <td>{{this.items[b.itemno-1].itemname}}</td>\n          <td align=\"center\" >{{b.qty}}</td>\n          <td>{{this.items[b.itemno-1].price}}</td>\n          <td align=\"center\">{{getTotalBillAmount(b.qty * this.items[b.itemno-1].price)}}</td>\n          <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note\"></td>\n\n          <td align=\"center\"><button (click)=\"removeMenu(i)\">RM</button></td>\n        </tr> \n      \n    </ng-container><br>\n      <tr>\n        <td>\n          <button (click)=\"editBill()\" [disabled]=\"bill.length\" *ngIf=\"!billEditMode\">Edit</button>\n          <button (click)=\"cancelEditBill()\" *ngIf=\"billEditMode\">Back</button>\n        </td>\n        <td colspan=\"3\" align=\"center\" style='font-weight:bold;'>TOTAL</td>\n        <td style='font-weight:bold;'>{{getTotalBill()}}</td>\n        <td colspan=\"2\" align=\"right\"><button (click)=\"SendOrder()\" [disabled]=\"!bill.length || billEditMode\">Send Order</button></td>\n      </tr>\n      <!-- <tr style='font-size:18px' \n       *ngIf=\"spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n       <td ></td>\n       <td style='font-weight:bold;'>Note:</td>\n        <td colspan=\"4\" style=\"width: 300px;font-weight:bold;\">\n          <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n          <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n          <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n          <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n          <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n          <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n          <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n          <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n          <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n          <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n          <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n          <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n          <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span>\n          <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n          <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n          <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n        </td>\n      </tr> -->\n     <!--  <tr>\n          <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n            <td></td>\n      </tr>   -->    \n    </table>\n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n      </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table style=\"font-size: 14px!important\">\n        <tr>\n          <td  colspan=\"3\">CN: <input type=\"text\" style=\"width: 200px;\" [(ngModel)]=\"cname\" placeholder=\"Customer Name\"></td>\n        </tr>\n        <tr>    \n          <td>M <input id=\"mediumRassa\" type=\"number\" (ngModelChange)=\"addNoteInBill()\" style=\"width: 25px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>S <input style=\"width: 25px;\" type=\"number\" (ngModelChange)=\"addNoteInBill()\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>NS <input type=\"number\" style=\"width: 25px;\" (ngModelChange)=\"addNoteInBill()\"  [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> Spicy&nbsp;&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> No Tarri&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> Tarri Sep.&nbsp;&nbsp;</td>\n        </tr>\n            <tr> \n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> No Oni&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> No Mat&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> No Pav&nbsp;&nbsp;</td>\n    \n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> No Bun&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> Ex Oni&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> Ex Mat&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> Pack Sep&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> Ex Bun&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td colspan=\"3\"><input type=\"text\" (ngModelChange)=\"addNoteInBill()\" style=\"width: 200px;\" [(ngModel)]=\"spNote\" placeholder=\"Special Note\"/></td>\n\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n       \n      \n  </span>\n  </div>\n\n"
+module.exports = "\n \n <div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-7\">\n      <button (click)=\"router.navigate(['selectTable'], {});\" style=\"height: 25px;width: 50px;\">Back</button>\n\n     &nbsp;&nbsp; <b>11Order For Table No : {{MainSer.getTableNo()}}</b>\n    </div>\n    <div class=\"col-sm-4 ml-4 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"pageMargin\" >\n    <!-- <form [formGroup]=\"billForm\" (ngSubmit)=\"onSubmit()\">\n        <div *ngFor=\"let validation of menuListDetails.menuQty\">\n            <div  *ngIf=\"billForm.get('menuQty').hasError(validation.type) && billForm.get('menuQty').dirty || billForm.get('menuQty').touched\">\n             {{validation.message}}\n            </div>\n        </div> \n          <div *ngFor=\"let validation of menuListDetails.itemList\">\n              <div  *ngIf=\"billForm.get('itemList').hasError(validation.type) && billForm.get('itemList').dirty || billForm.get('itemList').touched\">\n               {{validation.message}}\n              </div>\n          </div> \n          <select  formControlName=\"itemList\">\n              <option value=\"\" disabled>Select</option>\n              <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n            \n            </select>\n            <input type=\"number\" formControlName=\"menuQty\"/>\n            <button type=\"submit\">Submit</button>\n      </form> -->\n\n\n Menu Name:\n <select  [(ngModel)]=\"menuIndex\" tabindex=\"0\" id=\"menu\">\n    <option value=\"\">0 Select Menu</option>\n    <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n  <!--  <option value=\"1\">2 Dahi Misal</option>\n    <option value=\"2\">3 Vada Pav</option> -->\n  </select> <BR> <BR>\n  Quantity:\n  <input type=\"number\" [(ngModel)]=\"menuQty\" min=\"1\" max=\"99\" size=\"2\"/>\n  &nbsp;&nbsp;&nbsp;  \n  <button (click)=\"minusQty()\">Minus -</button>\n  &nbsp;<button (click)=\"plusQty()\">Plus +</button>\n  &nbsp;<button (click)=\"addMenu()\" [disabled]=\"billEditMode\">Add</button> \n\n  <BR> <BR>\n\n  <div id=\"billDiv\" class=\"\" *ngIf=\"this.tableBill?.length || this.bill?.length\" >\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n        <!-- <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>  -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n    <table cellpadding=3 border=\"1\" *ngIf=\"this.tableBill?.length || this.bill?.length\">\n        <!-- <tr>\n            <th colspan=\"5\" style='text-align:center'></th>\n            <th></th>\n        </tr> -->\n        <tr *ngIf=\"tableBill[tableBill.length-1]\">\n          <th align=\"left\" colspan=\"2\" >Bill No: {{billno}}<br>Name: {{cname | titlecase}}</th>\n          <th  colspan=\"4\" style='text-align:right;'>Date: {{tableBill[tableBill.length-1].date | date:'dd/MM/yyyy'}}<br>Time: {{tableBill[tableBill.length-1].time}}</th>\n          <th><button (click)=\"billPaid()\" [disabled]=\"bill.length\">PAID</button></th>\n\n        </tr> \n      <tr>\n          <th>Sr</th>\n          <th style=\"width: 126px\" >Item Name</th>\n          <th style=\"width: 10px\">Qt</th>\n          <th style=\"width: 10px;text-align: center;\">&#8377;</th>\n          <th style=\"width: 10px\">Am</th>\n          <th >Note</th>\n          <th style=\"font-size: 12px;\">Action</th>\n      </tr>\n      <ng-container *ngIf=\"this.tableBill?.length\">\n      <tr *ngFor=\"let b of tableBill; let i = index;trackBy: trackChatMessage\">\n        <td>{{i+1}}</td>\n        <td>{{this.items[b.itemno-1].itemname}}</td>\n        <td align=\"center\">{{b.qty}}</td>\n        <td align=\"right\">{{this.items[b.itemno-1].price}}</td>\n        <td align=\"center\">{{getTotalBillAmount(b.qty * this.items[b.itemno-1].price)}}</td>\n        <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note+'- '+b.waitername\">\n        </td>\n        <td></td>\n    </tr>\n    </ng-container>\n    <ng-container *ngIf=\"this.bill?.length && !billEditMode\">\n      <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n           <td>{{i+1}}</td>\n           <td>{{b.itemname}}</td>\n           <td align=\"center\" >{{b.qty}}</td>\n           <td>{{b.price}}</td>\n           <td align=\"center\">{{b.amount}}</td>\n           <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note\"></td>\n\n           <td align=\"center\"><button (click)=\"removeMenu(i)\">RM</button></td>\n      </tr> \n    </ng-container><br>\n    <ng-container *ngIf=\"billEditMode && this.bill?.length\"> <!-- For edit Mode -->\n      \n        <tr *ngFor=\"let b of bill; let i = index;trackBy: trackChatMessage\">\n          <td>{{i+1}}</td>\n          <td>{{this.items[b.itemno-1].itemname}}</td>\n          <td align=\"center\" >{{b.qty}}</td>\n          <td>{{this.items[b.itemno-1].price}}</td>\n          <td align=\"center\">{{getTotalBillAmount(b.qty * this.items[b.itemno-1].price)}}</td>\n          <td style=\"width: 100px;font-size: 10px;\" [innerHTML]=\"b.note\"></td>\n\n          <td align=\"center\"><button (click)=\"removeMenu(i)\">RM</button></td>\n        </tr> \n      \n    </ng-container><br>\n      <tr>\n        <td>\n          <button (click)=\"editBill()\" [disabled]=\"bill.length\" *ngIf=\"!billEditMode\">Edit</button>\n          <button (click)=\"cancelEditBill()\" *ngIf=\"billEditMode\">Back</button>\n        </td>\n        <td colspan=\"3\" align=\"center\" style='font-weight:bold;'>TOTAL</td>\n        <td style='font-weight:bold;'>{{getTotalBill()}}</td>\n        <td colspan=\"2\" align=\"right\"><button (click)=\"SendOrder()\" [disabled]=\"!bill.length || billEditMode\">Send Order</button></td>\n      </tr>\n      <!-- <tr style='font-size:18px' \n       *ngIf=\"spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n       <td ></td>\n       <td style='font-weight:bold;'>Note:</td>\n        <td colspan=\"4\" style=\"width: 300px;font-weight:bold;\">\n          <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n          <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n          <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n          <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n          <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n          <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n          <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n          <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n          <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n          <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n          <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n          <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n          <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span>\n          <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n          <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n          <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n        </td>\n      </tr> -->\n     <!--  <tr>\n          <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n            <td></td>\n      </tr>   -->    \n    </table>\n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n      </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table style=\"font-size: 14px!important\">\n        <tr>\n          <td  colspan=\"3\">CN: <input type=\"text\" style=\"width: 200px;\" [(ngModel)]=\"cname\" placeholder=\"Customer Name\"></td>\n        </tr>\n        <tr>    \n          <td>M <input id=\"mediumRassa\" type=\"number\" (ngModelChange)=\"addNoteInBill()\" style=\"width: 25px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>S <input style=\"width: 25px;\" type=\"number\" (ngModelChange)=\"addNoteInBill()\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>NS <input type=\"number\" style=\"width: 25px;\" (ngModelChange)=\"addNoteInBill()\"  [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> Spicy&nbsp;&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> No Tarri&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> Tarri Sep.&nbsp;&nbsp;</td>\n        </tr>\n            <tr> \n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> No Oni&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> No Mat&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> No Pav&nbsp;&nbsp;</td>\n    \n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> No Bun&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> Ex Oni&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> Ex Mat&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> Pack Sep&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" (ngModelChange)=\"addNoteInBill()\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> Ex Bun&nbsp;&nbsp;</td>\n        </tr>\n        <tr>\n          <td colspan=\"3\"><input type=\"text\" (ngModelChange)=\"addNoteInBill()\" style=\"width: 200px;\" [(ngModel)]=\"spNote\" placeholder=\"Special Note\"/></td>\n\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n       \n      \n  </span>\n  </div>\n\n"
 
 /***/ }),
 
@@ -5727,7 +5770,7 @@ module.exports = "table\r\n{\r\nfont-size: 12px;\r\n} \r\nbutton, input, optgrou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n \n <div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-4\"><h5><b>BHADAIT MISAL PARCEL ORDER</b></h5></div>\n    <div class=\"col-sm-6 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button  *ngIf=\"!this.MainSer.orderMode\" class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n      &nbsp;<button  *ngIf=\"ownerMode\" class=\"btn btn-success\" (click)=\"clearData()\">Clear Data</button> \n\n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"containerDiv\" *ngIf=\"!this.MainSer.orderMode && this.items?.length\">\n        \n    <!-- <form [formGroup]=\"billForm\" (ngSubmit)=\"onSubmit()\">\n        <div *ngFor=\"let validation of menuListDetails.menuQty\">\n            <div  *ngIf=\"billForm.get('menuQty').hasError(validation.type) && billForm.get('menuQty').dirty || billForm.get('menuQty').touched\">\n             {{validation.message}}\n            </div>\n        </div> \n          <div *ngFor=\"let validation of menuListDetails.itemList\">\n              <div  *ngIf=\"billForm.get('itemList').hasError(validation.type) && billForm.get('itemList').dirty || billForm.get('itemList').touched\">\n               {{validation.message}}\n              </div>\n          </div> \n          <select  formControlName=\"itemList\">\n              <option value=\"\" disabled>Select</option>\n              <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n            \n            </select>\n            <input type=\"number\" formControlName=\"menuQty\"/>\n            <button type=\"submit\">Submit</button>\n      </form> -->\n\n      <div *ngIf=\"orderPlace\">\n        <h4>Your order placed successfully</h4>\n        <h4>Payment ID: {{ paymentId }}</h4>\n        <h4>We will call you once your order is ready</h4>\n       </div>\n\n <div *ngIf=\"!orderPlace\">\n  <b>Select Menu:</b>  &nbsp;\n  <select  [(ngModel)]=\"menuIndex\" tabindex=\"0\" id=\"menu\">\n     <option value=\"\">0 Select Menu</option>\n     <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n   <!--  <option value=\"1\">2 Dahi Misal</option>\n     <option value=\"2\">3 Vada Pav</option> -->\n   </select> \n   <br><br><b>Quantity:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n   <input style=\"width:30%\" type=\"number\" [(ngModel)]=\"menuQty\" min=\"1\" (keyup)=\"onKeyup($event)\" (keypress)=\"onKeypress($event)\"/>\n   &nbsp;<button (click)=\"addMenu()\">Add To Cart</button> \n </div>\n\n \n \n\n  <div id=\"billDiv\" class=\"billDiv\" *ngIf=\"bill.length\">\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n       <!--  <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>\n -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n    <table cellpadding=3 >\n        <!-- <tr>\n            <th colspan=\"5\" style='text-align:center'></th>\n            <th></th>\n        </tr> -->\n        <tr>\n          <th align=\"left\" colspan=\"2\" >Name: {{cname | titlecase}}<br> Mo: {{cMobile}}<br></th>\n          <th  colspan=\"3\" style='text-align:right;'>Date: {{latest_date}}<br>Time: {{latest_time}}</th>\n          <th></th>\n        </tr> \n      <tr>\n          <th>No</th>\n          <th >Item Name</th>\n          <th >Qty</th>\n          <th >Rs</th>\n          <th >Amt</th>\n          <th *ngIf=\"!orderPlace\">Action</th>\n      </tr>\n      <tr *ngFor=\"let b of bill; let i = index\">\n           <td>{{i+1}}</td>\n           <td [innerHTML]=\"b.itemname\"></td>\n           <td align=\"right\">{{b.qty}}</td>\n           <td align=\"right\">{{b.price}}</td>\n           <td align=\"right\">{{b.amount}}</td>\n           <td *ngIf=\"!orderPlace\"><button style=\"margin:2px\" (click)=\"removeMenu(i)\">Remove</button></td>\n      </tr>      \n      <tr>\n        <td colspan=\"4\" align=\"left\" style='font-weight:bold;'>Total</td>\n        <td colspan=\"1\"  align=\"right\" style='font-weight:bold;'>Rs.{{totalPrice}}</td>\n        <td></td>\n      </tr>\n      <tr style='font-size:18px' \n       *ngIf=\"spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n        <td style='font-weight:bold;'>Note:</td>\n        <td colspan=\"4\" style=\"width: 300px;font-weight:bold;\">\n          <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n          <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n          <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n          <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n          <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n          <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n          <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n          <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n          <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n          <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n          <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n          <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n          <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span> \n          <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n          <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n          <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n        </td>\n        <td></td>\n      </tr>\n      <tr>\n          <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n            <td></td>\n      </tr>      \n    </table>\n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n      </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table class=\"\">\n        <tr *ngIf=\"!orderPlace\">\n          <!-- <td>CN: <input type=\"text\" style=\"width: 50px;\" [(ngModel)]=\"cname\"></td> -->\n\n          <td><b>Instruction:</b></td>\n          <td>Medium <input id=\"mediumRassa\" type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>&nbsp;&nbsp;Spicy <input style=\"width: 50px;\" type=\"number\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>&nbsp;&nbsp;Non Spicy <input type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr *ngIf=\"!orderPlace\">\n          <!-- <td><input type=\"checkbox\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> 1. Spicy&nbsp;&nbsp;&nbsp;</td> -->\n<!--           <td><input type=\"checkbox\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> 2. No Tarri&nbsp;&nbsp;</td>\n -->          <td><input type=\"checkbox\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> Tarri Sep.&nbsp;&nbsp;</td>\n              <td><input type=\"checkbox\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> Pack Seperate&nbsp;&nbsp;</td>\n              <td colspan=\"3\"><input style=\"width: 120px;\" type=\"text\" [(ngModel)]=\"spNote\" placeholder=\"Add Special Note\"/></td>\n\n          <!-- <td><input type=\"checkbox\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> 4. No Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> 5. No Matki&nbsp;&nbsp;</td> -->\n        </tr>\n        <tr>\n          <!-- <td><input type=\"checkbox\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> 6. No Pav&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> 7. No Bundi&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> 8. Ex Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> 9. Ex Matki&nbsp;&nbsp;</td> -->\n          \n        </tr>\n        <tr>\n         <!--  <td><input type=\"checkbox\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> 11. No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> 11. Ex Bundi&nbsp;&nbsp;</td> -->\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n    <div *ngIf=\"!orderPlace\">\n        <span>Customer Full Name: &nbsp;<input type=\"text\"  style=\"width: 170px;\" [(ngModel)]=\"cname\"></span>\n        <br><br><span>Mobile No: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n          <input type=\"number\"  minlength=\"10\" maxlength=\"10\" [(ngModel)]=\"cMobile\"></span>\n          <br><br><button  (click)=\"payNow()\">Pay & Place Order</button>\n\n    </div>\n   \n   \n      \n  </span>\n  </div>\n\n"
+module.exports = "\n \n <div class=\"header\">\n  <div class=\"row\">\n    <div class=\"col-sm-4\"><h5><b>BHADAIT MISAL PARCEL ORDER</b></h5>    \n    </div>\n    <div class=\"col-sm-6 mt-1\" *ngIf=\"false\">\n      \n      <input [disabled]=\"managerMode || ownerMode || bhukumShopMode\" type=\"password\" [(ngModel)]=\"userPassword\" placeholder=\"Enter Password\">\n      &nbsp;<button type=\"submit\" class=\"btn btn-primary\" [disabled]=\"!userPassword && loginBtnText=='Sign In'\" (click)=\"setAdminMode()\">{{loginBtnText}}</button>\n      &nbsp;<button  *ngIf=\"!this.MainSer.orderMode\" class=\"btn btn-success\" (click)=\"router.navigate(['customerBills'], {});\">Customer Bills</button> \n      &nbsp;<button  *ngIf=\"ownerMode\" class=\"btn btn-success\" (click)=\"clearData()\">Clear Data</button> \n\n<!--        &nbsp;<button class=\"btn btn-success\" (click)=\"router.navigate(['billsMenu'], {});\">Bill Menu</button> \n --> \n    </div>\n  </div>\n</div>\n  <div class=\"containerDiv\" *ngIf=\"!this.MainSer.orderMode\">\n          <span *ngIf=\"!restaurantLocation\"><h1>{{message}}</h1></span>\n    <!-- <form [formGroup]=\"billForm\" (ngSubmit)=\"onSubmit()\">\n        <div *ngFor=\"let validation of menuListDetails.menuQty\">\n            <div  *ngIf=\"billForm.get('menuQty').hasError(validation.type) && billForm.get('menuQty').dirty || billForm.get('menuQty').touched\">\n             {{validation.message}}\n            </div>\n        </div> \n          <div *ngFor=\"let validation of menuListDetails.itemList\">\n              <div  *ngIf=\"billForm.get('itemList').hasError(validation.type) && billForm.get('itemList').dirty || billForm.get('itemList').touched\">\n               {{validation.message}}\n              </div>\n          </div> \n          <select  formControlName=\"itemList\">\n              <option value=\"\" disabled>Select</option>\n              <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n            \n            </select>\n            <input type=\"number\" formControlName=\"menuQty\"/>\n            <button type=\"submit\">Submit</button>\n      </form> -->\n\n<div *ngIf=\"orderPlace\">\n        <h4><b>***PLEASE DO NOT REFRESH OR CLOSE THE BROWSER***</b></h4>\n        <h4><b>***Please take a screenshot for your reference***</b></h4>\n        <h4>Your order placed successfully.<br>Payment ID: {{ paymentId }}</h4>\n        <h4><b>We will call your name once your order is ready.</b></h4>\n</div>\n\n <div *ngIf=\"!orderPlace && restaurantLocation\">\n\n  <b>Order Type:</b>  &nbsp;\n  <select  style=\"width:215px;\" [(ngModel)]=\"orderType\" id=\"orderType\" (change)=\"onOrderTypeSelectionChange()\">\n    <option value=\"\" selected>Select Order Type</option>\n    <option value=\"dinein\" disabled>Dine-In</option>\n    <option value=\"parcel\">Parcel</option> \n  </select><br><br>\n\n  <div *ngIf=\"orderType!=''\">\n    \n\n    <div *ngIf=\"orderType == 'parcel' && items\">\n      <b>Select Menu:</b>  &nbsp;\n      <select [(ngModel)]=\"menuIndex\" tabindex=\"0\" id=\"menu\">\n        <option value=\"SelectItem\" selected>Click to Select Item</option>\n        <option value=\"{{num}}\" *ngFor=\"let i of items; let num = index\">{{num+1}} {{i.itemname}}</option>\n      <!--  <option value=\"1\">2 Dahi Misal</option>\n        <option value=\"2\">3 Vada Pav</option> -->\n      </select> \n    </div>\n\n    <div  *ngIf=\"orderType == 'dinein' && dineInItems\">\n      <b>Select Menu:</b>  &nbsp;\n      <select [(ngModel)]=\"menuIndex\" tabindex=\"0\" id=\"dineInMenu\">\n        <option value=\"SelectItem\" selected>Click to Select Item</option>\n        <option value=\"{{num}}\" *ngFor=\"let i of dineInItems; let num = index\">{{num+1}} {{i.itemname}}</option>\n      <!--  <option value=\"1\">2 Dahi Misal</option>\n        <option value=\"2\">3 Vada Pav</option> -->\n      </select> \n    </div>\n    \n\n    <div  *ngIf=\"menuIndex!='SelectItem' && ((items && orderType == 'parcel') || (dineInItems && orderType == 'dinein'))\">\n      <br><b>Quantity:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n      <input style=\"width:110px\" type=\"number\" [(ngModel)]=\"menuQty\" min=\"1\" (keypress)=\"onKeypress($event)\"/>\n      &nbsp;<button (click)=\"addMenu()\">Add To Cart</button>\n    </div>\n     \n  </div>\n  \n </div>\n\n \n \n\n  <div id=\"billDiv\" class=\"billDiv\" *ngIf=\"bill.length\">\n    <!-- <div><img src=\"./logo.png\" width=\"200px\" height=\"100px\" align=\"center\"/></div> -->\n       <!--  <div *ngIf=\"branchName=='karveroad'\">BHADAIT MISAL<BR>Lane No.14, Prabhat Road, Near Seed<BR>Infotech, Pune-411004</div>  \n        <div  *ngIf=\"branchName=='Bhukum'\">BHADAIT MISAL<BR>Kanta Smruti, Opp. Muktai Lawns<BR>Bhukum, Paud Road, Pune-412108</div>\n -->\n        <!-- <div>BILL NO:{{billno}} DATE: {{latest_date}} TIME: {{latest_time}}</div> -->\n    <table cellpadding=3>\n        <!-- <tr>\n            <th colspan=\"5\" style='text-align:center'></th>\n            <th></th>\n        </tr> -->\n        <tr>\n          <th align=\"left\" colspan=\"2\" >Name: {{cname | titlecase}}<br> Mo: {{cMobile}}<br></th>\n          <th  colspan=\"3\" style='text-align:right;'>Date: {{latest_date  | date:'dd/MM/yyyy'}}<br>Time: {{latest_time}}</th>\n          <th></th>\n        </tr> \n      <tr>\n          <th>No</th>\n          <th >Item Name</th>\n          <th >Qty</th>\n          <th >Rs</th>\n          <th >Amt</th>\n          <th *ngIf=\"!orderPlace\">Action</th>\n      </tr>\n      <tr *ngFor=\"let b of bill; let i = index\">\n           <td>{{i+1}}</td>\n           <td [innerHTML]=\"b.itemname\"></td>\n           <td align=\"right\">{{b.qty}}</td>\n           <td align=\"right\">{{b.price}}</td>\n           <td align=\"right\">{{b.amount}}</td>\n           <td *ngIf=\"!orderPlace\"><button style=\"margin:2px\" (click)=\"removeMenu(i)\">Remove</button></td>\n      </tr>      \n      <tr>\n        <td colspan=\"4\" align=\"left\" style='font-weight:bold;'>Total</td>\n        <td colspan=\"1\"  align=\"right\" style='font-weight:bold;'>Rs.{{totalPrice}}</td>\n        <td></td>\n      </tr>\n      <tr \n       *ngIf=\"peopleCount || spicy || noTarri || tarriSeperate || noOnion || noPohe || packSeperate || noMatki || noPav || noBundi || exOnion || exMatki || mediumRassa || spicyRassa || nonSpicyRassa || exBundi || spNote\">\n        <td *ngIf=\"!peopleCount\" style='font-weight:bold;'>Note:</td>\n        <td colspan=\"4\" style=\"width: 130px;font-weight:bold;\">\n          <span *ngIf=\"mediumRassa\">&nbsp; <b>*</b> {{mediumRassa}} M</span>\n          <span *ngIf=\"spicyRassa\">&nbsp; <b>*</b> {{spicyRassa}} S</span>\n          <span *ngIf=\"nonSpicyRassa\">&nbsp; <b>*</b> {{nonSpicyRassa}} NS</span>\n          <span *ngIf=\"spicy\">&nbsp; <b>*</b> Spicy</span>\n          <span *ngIf=\"noTarri\">&nbsp; <b>*</b> No Tarri</span>\n          <span *ngIf=\"tarriSeperate\">&nbsp; <b>*</b> Tarri Seperate</span>\n          <span *ngIf=\"noOnion\">&nbsp; <b>*</b> No Onion</span>\n          <span *ngIf=\"noPohe\">&nbsp; <b>*</b> No Pohe</span>\n          <span *ngIf=\"noMatki\">&nbsp; <b>*</b> No Matki</span>\n          <span *ngIf=\"noPav\">&nbsp; <b>*</b> No Pav</span>\n          <span *ngIf=\"noBundi\">&nbsp; <b>*</b> No Bundi</span>\n          <span *ngIf=\"exOnion\">&nbsp; <b>*</b> Ex Onion</span>\n          <span *ngIf=\"exMatki\">&nbsp; <b>*</b> Ex Matki</span> \n          <span *ngIf=\"packSeperate\">&nbsp; <b>*</b> Pack Seperate</span>\n          <span *ngIf=\"exBundi\">&nbsp; <b>*</b> Ex Bundi</span>\n          <span *ngIf=\"spNote\">&nbsp; <b>*</b> {{spNote}}</span>\n          <span *ngIf=\"peopleCount\"><b>No of People: {{peopleCount}}</b></span>\n        </td>\n        <td></td>\n      </tr>\n      <tr>\n          <td colspan=\"5\" style='text-align:center;font-weight:bold;'>**THANK YOU**<BR>**VISIT AGAIN**</td>\n            <td></td>\n      </tr>      \n    </table>\n\n    <div *ngIf=\"emp\">\n        <ul>\n          <li *ngFor=\"let e of emp\">{{e.itemno}} {{e.itemname}} {{e.price}}</li>\n        </ul>\n      </div>\n  </div>\n\n  <div style=\"margin-top: 10px;font-weight: bold;\">\n    <span *ngIf=\"bill.length\">\n    <tr>\n      <td>\n        <table class=\"\">\n        <tr *ngIf=\"!orderPlace && orderType == 'parcel'\">\n          <!-- <td>CN: <input type=\"text\" style=\"width: 50px;\" [(ngModel)]=\"cname\"></td> -->\n\n          <td><b>Instruction:</b></td>\n          <td>Medium <input id=\"mediumRassa\" type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"mediumRassa\" min=\"0\"></td>\n          <td>&nbsp;&nbsp;Spicy <input style=\"width: 50px;\" type=\"number\" [(ngModel)]=\"spicyRassa\"></td>\n          <td>&nbsp;&nbsp;Non Spicy <input type=\"number\" style=\"width: 50px;\" [(ngModel)]=\"nonSpicyRassa\"></td>\n\n        </tr>\n        \n        <tr *ngIf=\"!orderPlace && orderType == 'parcel'\">\n          <!-- <td><input type=\"checkbox\" value=\"Spicy\" [disabled]=\"noTarri\" [(ngModel)]=\"spicy\"/> 1. Spicy&nbsp;&nbsp;&nbsp;</td> -->\n<!--           <td><input type=\"checkbox\" value=\"Non Spicy\" [disabled]=\"spicy || tarriSeperate\" [(ngModel)]=\"noTarri\"/> 2. No Tarri&nbsp;&nbsp;</td>\n -->          <td><input type=\"checkbox\" value=\"Tarri Seperate\" [disabled]=\"noTarri\" [(ngModel)]=\"tarriSeperate\"/> Tarri Sep.&nbsp;&nbsp;</td>\n              <td><input type=\"checkbox\" value=\"Pack Seperate\" [(ngModel)]=\"packSeperate\"/> Pack Seperate&nbsp;&nbsp;</td>\n              <td colspan=\"3\"><input style=\"width: 120px;\" type=\"text\" [(ngModel)]=\"spNote\" placeholder=\"Add Special Note\"/></td>\n\n          <!-- <td><input type=\"checkbox\" value=\"No Onion\" [disabled]=\"exOnion\" [(ngModel)]=\"noOnion\"/> 4. No Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Matki\" [disabled]=\"exMatki\" [(ngModel)]=\"noMatki\"/> 5. No Matki&nbsp;&nbsp;</td> -->\n        </tr>\n        <tr>\n          <!-- <td><input type=\"checkbox\" value=\"No Pav\" [disabled]=\"\" [(ngModel)]=\"noPav\"/> 6. No Pav&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"No Bundi\" [disabled]=\"exBundi\" [(ngModel)]=\"noBundi\"/> 7. No Bundi&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Onion\" [disabled]=\"noOnion\" [(ngModel)]=\"exOnion\"/> 8. Ex Onion&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Matki\" [disabled]=\"noMatki\" [(ngModel)]=\"exMatki\"/> 9. Ex Matki&nbsp;&nbsp;</td> -->\n          \n        </tr>\n        <tr>\n         <!--  <td><input type=\"checkbox\" value=\"No Pohe\" [disabled]=\"\" [(ngModel)]=\"noPohe\"/> 11. No Pohe&nbsp;&nbsp;</td>\n          <td><input type=\"checkbox\" value=\"Ex Bundi\" [disabled]=\"noBundi\" [(ngModel)]=\"exBundi\"/> 11. Ex Bundi&nbsp;&nbsp;</td> -->\n        </tr>\n      </table>\n       <br>\n      </td>\n    </tr>\n    <div *ngIf=\"!orderPlace\">\n        <span>Full Name: &nbsp;<input type=\"text\"  style=\"width: 170px;\" [(ngModel)]=\"cname\"></span>\n        \n        <br><br><span>Mobile No:&nbsp;\n          <input type=\"number\"  minlength=\"10\" maxlength=\"10\" [(ngModel)]=\"cMobile\"></span>\n        \n        <div  *ngIf=\"orderType == 'dinein'\">\n          <br><span>No of People to Seat: &nbsp;&nbsp;\n            <input type=\"number\"  min=\"1\" max=\"99\" [(ngModel)]=\"peopleCount\"></span>\n        </div>\n        \n\n          <br><br><button  (click)=\"payNow()\">Pay & Place Order</button>\n\n    </div>\n   \n   \n      \n  </span>\n  </div>\n\n"
 
 /***/ }),
 
@@ -5747,6 +5790,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _main_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../main.service */ "./src/app/main.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../environments/environment */ "./src/environments/environment.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5756,6 +5800,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -5773,8 +5818,9 @@ var TakeAwayHomeComponent = /** @class */ (function () {
         this.cdr = cdr;
         this.orderPlace = false;
         this.bill = [];
-        this.menuIndex = "0";
-        this.menuQty = 1;
+        this.orderType = "";
+        this.menuIndex = "SelectItem";
+        this.menuQty = null;
         this.totalPrice = 0;
         this.todayDate = new Date();
         this.spicy = false;
@@ -5801,17 +5847,13 @@ var TakeAwayHomeComponent = /** @class */ (function () {
         this.bhukumShopMode = false;
         this.userPassword = "";
         this.cNote = "";
+        this.message = 'Checking location...';
+        this.targetLat = 18.5101; // Target Latitude (e.g., Pune)
+        this.targetLon = 73.8330; // Target Longitude
+        this.radiusInMeters = 100; // Radius to check
+        this.restaurantLocation = true;
         this.branchName = this.MainSer.getbranchName();
         this.MainSer.customerOrderMode = true;
-        // console.log("----------"+this.items?.length);
-        if (this.MainSer.autoIP == true) {
-            this.MainSer.IPAddress = window.location.hostname;
-            this.MainSer.getItemsData().subscribe(function (resp) { return _this.items = resp; });
-        }
-        else {
-            this.MainSer.IPAddress = this.MainSer.staticIPAddress;
-            this.MainSer.getItemsData().subscribe(function (resp) { return _this.items = resp; });
-        }
         this.subscription1 = this.MainSer.mangerMode.subscribe(function (value) {
             _this.managerMode = value;
             if (_this.managerMode)
@@ -5831,59 +5873,108 @@ var TakeAwayHomeComponent = /** @class */ (function () {
     //*************** */
     TakeAwayHomeComponent.prototype.payNow = function () {
         var _this = this;
-        if (this.cname == null || this.cname.trim().length == 0) {
-            alert("Please enter customer name");
+        // alert(/^[A-Za-z\s]*$/.test(this.cname));
+        if (this.cname == null || this.cname.trim().length == 0 || this.cname.trim().length == 1 ||
+            !(/^[A-Za-z\s]*$/.test(this.cname))) {
+            alert("Please enter correct customer name");
             return 0;
         }
         if (this.cMobile == null || this.cMobile.toString().length != 10) {
-            alert("Please correct mobile number");
+            alert("Please enter correct mobile number");
             return 0;
         }
-        var RozarpayOptions = {
-            description: 'Sample Razorpay demo',
-            currency: 'INR',
-            amount: this.totalPrice * 100,
-            name: 'Bhadait Misal',
-            key: 'rzp_test_S6wzGzGXHWEmHW',
-            handler: function (response) {
-                // Handle success response here
-                console.log(response.razorpay_payment_id);
-                _this.paymentId = response.razorpay_payment_id;
-                _this.orderPlace = true;
-                _this.printBill();
-                _this.cdr.detectChanges();
-                // console.log(response.razorpay_order_id); // Should now work
-                //console.log(response.razorpay_signature); // Should now work
-                // Call your backend API to verify the payment signature
-            },
-            prefill: {
-                name: this.cname,
-                email: 'rohitbhadait@gmail.com',
-                phone: this.cMobile
-            },
-            theme: {
-                color: '#FFA500'
-            },
-            modal: {
-                ondismiss: function () {
-                    console.log('dismissed');
+        if (this.orderType == 'dinein') {
+            if (this.peopleCount == null || this.peopleCount <= 0 || this.peopleCount > 50) {
+                alert("Please enter correct people count");
+                return 0;
+            }
+            else {
+                var misalCount = 0;
+                for (var i = 0; i < this.bill.length; i++) {
+                    if (this.bill[i].itemno == 0 || this.bill[i].itemno == 1 || this.bill[i].itemno == 2 ||
+                        this.bill[i].itemno == 3 || this.bill[i].itemno == 4 || this.bill[i].itemno == 5 ||
+                        this.bill[i].itemno == 6)
+                        misalCount = misalCount + this.bill[i].qty;
+                }
+                if (misalCount < this.peopleCount && misalCount != 0) {
+                    if (window.confirm('Please note your Misal count is less than no of people.\nMisal | Thali | Vada Sample sharing charges is Rs.50 per person.\nPlease add more Misals or Misal Sharings from dropdown.')) {
+                        //alert("Please add misal from dropdown");
+                        return 0;
+                    }
+                    else {
+                        if (!window.confirm("Would you like to continue with payment?"))
+                            return 0;
+                    }
                 }
             }
-        };
-        /*  const successCallback = (paymentid: any) => {
-           console.log(paymentid);
-           this.paymentId = paymentid
-           alert("Your order placed successfully");
-           this.orderPlace = true;
-           this.printBill()
-         }
-       
-         const failureCallback = (e: any) => {
-           alert("Please do payment");
-           console.log(e);
-           this.orderPlace = false;
-         } */
-        Razorpay.open(RozarpayOptions);
+        }
+        /* const RozarpayOptions = {
+          description: 'Bhadait Misal Bill',
+          currency: 'INR',
+          amount: this.totalPrice*100,
+          name: 'Bhadait Misal',
+          key: environment.KEY_ID,
+          redirect: true,
+          handler: (response: any) => {
+            // Handle success response here
+            console.log(response.razorpay_payment_id);
+            this.paymentId = response.razorpay_payment_id;
+            this.orderPlace = true;
+            this.printBill();
+            this.cdr.detectChanges();
+          },
+          prefill: {
+            name: this.cname,
+            email: '',
+            phone: this.cMobile
+          },
+          theme: {
+            color: '#FFA500'
+          },
+          modal: {
+            ondismiss:  () => {
+              console.log('dismissed')
+            }
+          }
+        }
+        Razorpay.open(RozarpayOptions); */
+        this.MainSer.createOrder(this.totalPrice, 'INR').subscribe(function (order) {
+            var options = {
+                key: _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].KEY_ID,
+                amount: order.amount,
+                currency: 'INR',
+                name: 'Bhadait Misal',
+                description: 'Bhadait Misal Bill',
+                order_id: order.id,
+                redirect: true,
+                handler: function (response) {
+                    console.log('Payment ID:', response.razorpay_payment_id);
+                    console.log('Order ID:', response.razorpay_order_id);
+                    console.log('Signature:', response.razorpay_signature);
+                    this.paymentId = response.razorpay_payment_id;
+                    this.orderPlace = true;
+                    this.printBill();
+                    this.cdr.detectChanges();
+                },
+                prefill: {
+                    name: _this.cname,
+                    email: '',
+                    contact: _this.cMobile,
+                },
+                theme: {
+                    color: '#FFA500',
+                },
+                modal: {
+                    ondismiss: function () {
+                        console.log('dismissed');
+                    }
+                }
+            };
+            var rzp = new window.Razorpay(options);
+            rzp.open();
+        }, function (error) {
+            console.error('Payment error:', error);
+        });
     };
     /*billForm = new FormGroup({
       itemList: new FormControl('', Validators.compose([
@@ -5910,16 +6001,24 @@ var TakeAwayHomeComponent = /** @class */ (function () {
     }*/
     TakeAwayHomeComponent.prototype.addMenu = function () {
         if (this.menuIndex != "" && this.menuQty > 0) {
+            var items = void 0;
+            if (this.orderType == 'parcel')
+                items = this.items;
+            else
+                items = this.dineInItems;
             this.todayDate = new Date();
             this.latest_date = this.datepipe.transform(this.todayDate, 'MM-dd-yyyy');
             this.latest_time = this.datepipe.transform(this.todayDate, 'shortTime');
-            this.amt = parseInt(this.items[this.menuIndex].price) * (this.menuQty);
-            this.bill.push({ "itemno": this.menuIndex, "itemname": this.items[this.menuIndex].itemname, "price": this.items[this.menuIndex].price, "qty": this.menuQty, "amount": this.amt });
+            this.amt = parseInt(items[this.menuIndex].price) * (this.menuQty);
+            this.bill.push({ "itemno": this.menuIndex, "itemname": items[this.menuIndex].itemname, "price": items[this.menuIndex].price, "qty": this.menuQty, "amount": this.amt });
             this.totalPrice += this.amt;
-            this.menuIndex = "0";
+            this.menuIndex = "SelectItem";
             //   document.getElementById("menu").focus();
-            this.menuQty = 1;
+            this.menuQty = null;
             this.cdr.detectChanges();
+        }
+        else {
+            alert("Please add correct quantity.");
         }
     };
     TakeAwayHomeComponent.prototype.removeMenu = function (index) {
@@ -6042,6 +6141,7 @@ var TakeAwayHomeComponent = /** @class */ (function () {
         this.nonSpicyRassa = 0;
         this.cname = "";
         this.cMobile = null;
+        this.peopleCount = null;
     };
     TakeAwayHomeComponent.prototype.copyMessage = function (val) {
         var selBox = document.createElement('textarea');
@@ -6217,14 +6317,73 @@ var TakeAwayHomeComponent = /** @class */ (function () {
             alert("Check Your Internet Connection!")
           }  */
     };
+    TakeAwayHomeComponent.prototype.checkUserPosition = function () {
+        var _this = this;
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var distance = _this.calculateDistance(position.coords.latitude, position.coords.longitude, _this.targetLat, _this.targetLon);
+                if (distance <= _this.radiusInMeters) {
+                    _this.restaurantLocation = true;
+                    _this.message = "User is within " + _this.radiusInMeters + "m. Distance: " + distance.toFixed(2) + "m";
+                }
+                else {
+                    _this.message = "User is outside " + _this.radiusInMeters + "m. Distance: " + distance.toFixed(2) + "m";
+                    alert("Opps.. Sorry we are not accepting orders outside restaurant.");
+                    return 0;
+                }
+            }, function (error) {
+                alert("Opps.. Error in getting your location. Please check weather you provided Geo Location access. ");
+                _this.message = 'Error getting location: ' + error.message;
+                _this.restaurantLocation = false;
+            });
+        }
+        else {
+            alert("Opps.. Geolocation not supported.");
+            this.message = 'Geolocation not supported.';
+            this.restaurantLocation = false;
+        }
+    };
+    TakeAwayHomeComponent.prototype.calculateDistance = function (lat1, lon1, lat2, lon2) {
+        var R = 6371e3; // Earth radius in meters
+        var φ1 = (lat1 * Math.PI) / 180;
+        var φ2 = (lat2 * Math.PI) / 180;
+        var Δφ = ((lat2 - lat1) * Math.PI) / 180;
+        var Δλ = ((lon2 - lon1) * Math.PI) / 180;
+        var a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+            Math.cos(φ1) * Math.cos(φ2) *
+                Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c; // Distance in meters
+    };
+    TakeAwayHomeComponent.prototype.onOrderTypeSelectionChange = function () {
+        var _this = this;
+        this.bill = [];
+        this.totalPrice = 0;
+        this.resetBillsVaribale(false);
+        if (this.MainSer.autoIP == true) {
+            this.MainSer.IPAddress = window.location.hostname;
+            if (this.orderType == 'parcel' && this.items)
+                this.MainSer.getItemsData().subscribe(function (resp) { return _this.items = resp; });
+            else if (this.orderType == 'dinein' && !this.dineInItems)
+                this.MainSer.getDineInItemsData().subscribe(function (resp) { return _this.dineInItems = resp; });
+        }
+        else {
+            this.MainSer.IPAddress = this.MainSer.staticIPAddress;
+            if (this.orderType == 'parcel' && !this.items)
+                this.MainSer.getItemsData().subscribe(function (resp) { return _this.items = resp; });
+            else if (this.orderType == 'dinein' && !this.dineInItems)
+                this.MainSer.getDineInItemsData().subscribe(function (resp) { return _this.dineInItems = resp; });
+        }
+    };
     TakeAwayHomeComponent.prototype.ngOnInit = function () {
         // this.MainSer.setLoginMode("manager",false);
         // this.MainSer.setLoginMode("owner",false);
-        if (this.bhukumShopMode == false) {
-            this.MainSer.setLoginMode("manager", true);
-            this.sendDB_BackupMail();
-            //alert(this.bhukumShopMode);
-        }
+        this.checkUserPosition();
+        /* if(this.bhukumShopMode == false){
+          this.MainSer.setLoginMode("manager",true);
+          this.sendDB_BackupMail();
+         //alert(this.bhukumShopMode);
+        } */
         this.setAdminMode();
     };
     TakeAwayHomeComponent.prototype.ngOnDestroy = function () {
@@ -7055,7 +7214,8 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 var environment = {
-    production: false
+    production: false,
+    KEY_ID: 'rzp_live_SDVVOksgW3zgjc'
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
